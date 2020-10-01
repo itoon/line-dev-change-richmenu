@@ -16,7 +16,7 @@
              },
                 "action":{
                     "type":"uri",
-                    "uri":"https://liff.line.me/1654913603-9ZyGNvmA"
+                    "uri":"https://liff.line.me/1654913603-p6OMKxlv"
                 }
            },           
            {
@@ -37,7 +37,7 @@
                 "y":843,
                 "width":833,
                 "height":843
-             },
+            },
             "action":{
                    "type":"message",
                    "text":"C"
