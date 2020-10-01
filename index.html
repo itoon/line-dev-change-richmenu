@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Codetraveler</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        html,body{
+            height: 100%;
+        }
+        body{
+            background: #f8f8f8;
+        }
+        main{   
+            width: 100%;
+        }
+    </style>    
+</head>
+<body>
+    <main class="d-flex align-items-center h-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <img src="codetraveler.jpg" alt="" width="80">
+                    </div>
+                    <form onsubmit="send(event)">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Firstname</label>
+                            <input type="text" class="form-control" id="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Lastname</label>
+                            <input type="text" class="form-control" id="lastname">
+                        </div>   
+                        <div class="text-center">
+                            <input type="submit" id="btn" class="btn btn-primary">                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- 1. script axios -->
+    <!-- 2. script liff sdk -->    
+    <script src="index.js"></script>
+</body>
+</html>

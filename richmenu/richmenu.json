@@ -1,0 +1,47 @@
+{
+    "size":{
+        "width":2500,
+        "height":1686
+    },
+       "selected":true,
+       "name":"Default Richmenu",
+       "chatBarText":"Rich Menu",
+       "areas":[
+           {
+            "bounds":{
+                "x":0,
+                "y":0,
+                "width":1667,
+                "height":1686
+             },
+                "action":{
+                    "type":"uri",
+                    "uri":"https://liff.line.me/1654913603-9ZyGNvmA"
+                }
+           },           
+           {
+            "bounds":{
+                "x":1668,
+                "y":0,
+                "width":833,
+                "height":843
+             },
+            "action":{
+                   "type":"message",
+                   "text":"B"
+                }
+           },
+           {
+            "bounds":{
+                "x":1668,
+                "y":843,
+                "width":833,
+                "height":843
+             },
+            "action":{
+                   "type":"message",
+                   "text":"C"
+                }
+           }
+        ]
+   }
